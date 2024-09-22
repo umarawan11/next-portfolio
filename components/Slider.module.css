@@ -1,0 +1,67 @@
+.progress {
+  padding-top: 150px;  /* Adjust the value as needed */
+  padding-bottom: 150px; /* Adjust the value as needed */
+  font-family: "Poppins", Arial, sans-serif;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  font-family: "Poppins", Arial, sans-serif;
+}
+
+.progress .progress-left .progress-bar {
+  animation: loading-1 1.8s linear forwards;
+  transform-origin: center left;
+}
+
+.progress .progress-right .progress-bar {
+  animation: loading-2 1.8s linear forwards;
+  transform-origin: center right;
+}
+
+.progress-value {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.progress-left .progress-bar {
+  border-width: 10px;
+  border-color: #6c757d;
+  position: absolute;
+  width: 75px;
+  height: 150px;
+  border-radius: 150px 0 0 150px;
+}
+
+.progress-right .progress-bar {
+  border-width: 10px;
+  border-color: #6c757d;
+  position: absolute;
+  width: 75px;
+  height: 150px;
+  border-radius: 0 150px 150px 0;
+}
+
+@keyframes loading-1 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes loading-2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}

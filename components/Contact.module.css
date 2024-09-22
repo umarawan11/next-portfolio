@@ -1,0 +1,126 @@
+.ftco-section{
+  padding-top: 150px;
+}
+/* Container for the entire section */
+#contact-section {
+  background-color: #fff; /* white background */
+  padding-top: 150px; /* Reduced the padding to a reasonable value */
+  padding-bottom: 150px; 
+  font-family: "Poppins", Arial, sans-serif;
+}
+
+/* Center the heading and give it a nice font style */
+.heading-section {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.heading-section .subheading {
+  font-size: 18px;
+  font-weight: bold;
+  color: #B4B797;
+}
+
+.heading-section h2 {
+  font-size: 32px;
+  color: #343a40; /* dark grey */
+  margin-bottom: 10px;
+}
+
+.heading-section p {
+  color: #AEAEAE; /* grey text */
+}
+
+/* Styling the form */
+.contact-form {
+  background-color: #fff; /* white background */
+  padding: 40px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+.contact-form .form-control {
+  border: 1px solid #ced4da;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.contact-form .form-control:focus {
+  border-color: #3d3b3b;
+  box-shadow: none;
+}
+
+.contact-form .btn {
+  border: none;
+  padding: 12px 30px;
+  cursor: pointer;
+  background-color: #B1B493;
+}
+
+.contact-form .btn:hover {
+  background-color: #3d3b3b;
+}
+
+/* Styling for the contact info boxes (address, phone, etc.) */
+.dbox {
+  margin-bottom: 20px;
+}
+
+.dbox .icon {
+  width: 50px;
+  height: 50px;
+  background-color: #B1B493; /* dark background for icons */
+  color: #fff; /* white icon color */
+  border-radius: 50%; /* Makes the icon a circle */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  margin-right: 15px;
+}
+
+.dbox .text {
+  color: #333;
+  text-decoration: none;
+
+}
+
+.dbox .text p {
+  margin-top: 10px;
+}
+
+.dbox .text a {
+  color: #9D9D9D;
+  text-decoration: none;
+}
+
+.dbox .text a:hover {
+  color: #B1B493;
+}
+/* Contact.module.css */
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background-color: #B1B493;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  height:50px;
+  width: 50px;
+}
+
+.scroll-to-top:hover {
+  background-color: #585854;
+}
+
+.scroll-to-top svg {
+  color: white;
+}

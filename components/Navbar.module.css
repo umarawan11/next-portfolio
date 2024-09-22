@@ -1,0 +1,29 @@
+/* Navbar.module.css */
+.stickyNavbar {
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0; /* Sticks the navbar to the top */
+    z-index: 1000; /* Ensures it stays above other content */
+    background-color: rgba(0, 0, 0, 0.8); /* Initial background color */
+    width: 100%; /* Full width */
+    transition: background-color 0.3s ease-in-out; /* Smooth background change */
+    font-family: "Poppins", Arial, sans-serif;  
+  }
+  .navbar {
+    z-index: 1030; /* Bootstrap default z-index for sticky navbar */
+  }
+  
+
+  
+  .scrolled {
+    background-color: #fff; /* Change background color when scrolling */
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .nav-link {
+    color: white;
+  }
+  
+  .scrolled .nav-link {
+    color: black; /* Change text color when scrolling */
+  }

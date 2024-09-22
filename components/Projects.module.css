@@ -1,0 +1,58 @@
+/* Section padding for more space between sections */
+.ftco-section {
+  padding-top: 100px;  /* Adjust to your preference */
+  padding-bottom: 150px; /* Ensuring bottom padding is applied */
+}
+
+/* Project card height and position */
+.project {
+  height: 350px; /* Adjust the height */
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  transition: all 0.5s ease; /* Add a transition for smooth effect */
+  overflow: hidden;
+}
+
+/* Initially hide the text */
+.project .text {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.8); /* Light background for visibility */
+  opacity: 0;
+  color: transparent; /* Make text invisible initially */
+  transition: opacity 0.5s ease, color 0.5s ease;
+  padding: 20px; /* Add padding for better readability */
+  z-index: 2; /* Ensure text is above the image */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* On hover, make the text visible with white bold color */
+.project:hover .text {
+  opacity: 1;
+  color: white; /* Change text color to white */
+  font-weight: bold; /* Make text bold */
+}
+
+/* Apply a slight dimming effect on hover */
+.project:hover .overlay {
+  opacity: 0.6; /* Make the image slightly darker on hover */
+}
+
+/* Overlay effect */
+.overlay {
+  background: rgba(0, 0, 0, 0.2); /* Slight overlay on the image */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  z-index: 1; /* Place overlay below the text */
+}

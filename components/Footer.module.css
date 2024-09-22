@@ -1,0 +1,102 @@
+.footer {
+  background-color: #232931;
+  color: #fff;
+  padding: 4rem 0;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #f8f9fa;
+  text-decoration: underline;
+}
+
+.footer .ftco-footer-widget {
+  margin-bottom: 2rem;
+}
+
+.footer .ftco-footer-widget h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.footer .ftco-footer-social .fa {
+  font-size: 20px;
+  margin-right: 10px;
+  color: #fff;
+}
+
+.footer .ftco-footer-social .fa:hover {
+  color: #B1B493;
+}
+
+.footer .ftco-footer-widget ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.footer .ftco-footer-widget ul li a {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.footer .ftco-footer-widget ul li a .fa {
+  margin-right: 10px;
+}
+
+/* Learn More Button Styling */
+.learnMoreBtn {
+  background-color: #B1B493;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.learnMoreBtn:hover {
+  background-color: #a8a58b; /* Slightly darker shade for hover */
+  color: #fff;
+}
+.footer .ftco-footer-widget ul li a .text {
+  margin-right: 50px; /* Increase this value to add more space */
+}
+.dbox {
+  margin-bottom: 20px;
+}
+
+.dbox .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  margin-right: 15px;
+}
+
+.dbox .text {
+  color:white;
+  text-decoration: none;
+
+}
+
+.dbox .text p {
+  margin-top: 10px;
+}
+
+.dbox .text a {
+  color: #9D9D9D;
+  text-decoration: none;
+}
+
+.dbox .text a:hover {
+  color: #B1B493;
+}
+
+

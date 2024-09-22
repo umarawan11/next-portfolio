@@ -1,0 +1,122 @@
+.ftcoCounter {
+  padding: 70px 70px;
+  background: #f8f9fa;
+  font-family: "Poppins", Arial, sans-serif;
+}
+
+.counter-wrap {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.block-18:hover {
+  transform: translateY(-10px);
+}
+.ftcoAnimate {
+  animation: fadeInUp 0.7s ease both;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.items .counter{
+  display:flex;
+
+}
+.block-18 {
+  padding: 30px 20px;
+  background: #F8F9FA;
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  display: flex; /* Added to align items horizontally */
+  gap: 20px; /* Space between the icon and counter content */
+  align-items: center; /* Vertically align icon and text */
+}
+
+.icon {
+  font-size: 40px; /* Adjusted icon size */
+  color: #fff;
+  background-color: #B1B493;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.text {
+  display: flex;
+  flex-direction: column; /* Stacks the number and text */
+  padding-left: 100px;
+  gap: 10px; /* Space between the counter number and text */
+}
+
+.text strong {
+  font-size: 60px;
+  color: #333;
+  display: block;
+}
+
+.text span {
+  font-size: 20px;
+  color: #aaa;
+}
+
+
+
+
+
+
+/* CounterSection.module.css */
+.ftcoCounter {
+  padding: 60px 0;
+}
+
+.counter-wrap {
+  margin-bottom: 30px;
+}
+
+.block-18 {
+  background: #f8f9fa; /* Light background color */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.block-18:hover {
+  transform: translateY(-10px);
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+  background: #fff;
+  border-radius: 50%;
+  font-size: 30px;
+  color: #B1B493; /* Blue color for the icons */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s ease, color 0.3s ease;
+  margin-top: -5px;
+  margin-right: 20px;
+}
+.text {
+  margin-left: 20px;
+}
+
+.items {
+  font-size: 2em;
+  font-weight: bold;
+  color: #000; /* Black text for counters */
+}
+
+
