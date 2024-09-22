@@ -1,3 +1,4 @@
+import styles from './Services.module.css'; 
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
