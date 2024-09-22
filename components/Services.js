@@ -3,7 +3,6 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLaptopCode, faPaintBrush, faMobileAlt, faBanner } from '@fortawesome/free-solid-svg-icons'; // Import icons
-import styles from './services.module.css'; // Import the custom stylesheet
 
 const Services = () => {
   return (
